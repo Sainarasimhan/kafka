@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_Sainarasimhan_kafka_1739125525884-pr-trigger-input-set
+  identifier: Build_Sainarasimhan_kafka_1739125525884prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: Testharness
+  pipeline:
+    identifier: Build_Sainarasimhan_kafka_1739125525884
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
