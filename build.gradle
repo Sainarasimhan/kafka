@@ -54,6 +54,7 @@ spotless {
 
 ext {
   gradleVersion = versions.gradle
+  // Version 8 	
   minJavaVersion = "8"
   buildVersionFileName = "kafka-version.properties"
 
