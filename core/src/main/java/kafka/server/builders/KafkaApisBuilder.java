@@ -162,7 +162,7 @@ public class KafkaApisBuilder {
         if (metadataSupport == null) throw new RuntimeException("you must set metadataSupport");
         if (replicaManager == null) throw new RuntimeException("You must set replicaManager");
         if (groupCoordinator == null) throw new RuntimeException("You must set groupCoordinator");
-        if (txnCoordinator == null) throw new RuntimeException("You must set txnCoordinator");
+        if (txnCoordinator == null) throw new RuntimeException("You must SET txnCoordinator");
         if (autoTopicCreationManager == null)
             throw new RuntimeException("You must set autoTopicCreationManager");
         if (config == null) config = new KafkaConfig(Collections.emptyMap());
